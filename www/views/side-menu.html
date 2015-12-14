@@ -1,0 +1,62 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive mynavbar">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+  
+  <ion-side-menu side="left">
+    <ion-content has-bouncing="false" scroll="false" class="menu-outer left-menu">
+      <!-- <div multi-bg="['http://lorempixel.com/640/1136']"> -->
+      <div multi-bg="['img/bg3.png']">
+        <div class="row menu-top-options">
+          <div class="col col-top">
+            <ion-list>
+			  <ion-item>
+				<img src="img/logo1.png" width="200" height="160">
+			  </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view1">
+                <i class="menu-icon icon ion-music-note"></i>
+                <h2 class="menu-text">STREAM</h2>
+              </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view2">
+                <i class="menu-icon icon ion-location"></i>
+                <h2 class="menu-text">STATION INFO</h2>
+              </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view3">
+                <i class="menu-icon icon ion-mic-c"></i>
+                <h2 class="menu-text">SEND A MESSAGE</h2>
+              </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view4">
+                <i class="menu-icon icon ion-share"></i>
+                <h2 class="menu-text">CONNECT</h2>
+              </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view5">
+                <i class="menu-icon icon ion-heart"></i>
+                <h2 class="menu-text">DONATE</h2>
+              </ion-item>
+              <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.view6">
+                <i class="menu-icon icon ion-gear-a"></i>
+                <h2 class="menu-text">SETTINGS</h2>
+              </ion-item>
+            </ion-list>
+          </div>
+        </div>
+        <div class="row menu-bottom-options">
+          <div class="col col-bottom">
+            <ion-list>
+			  <ion-item class="full-width-item" menu-close ui-sref="app.view8">
+              </ion-item>
+            </ion-list>
+          </div>
+        </div>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

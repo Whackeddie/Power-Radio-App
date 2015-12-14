@@ -1,0 +1,13 @@
+{
+  "name": "ionSideMenu-3",
+  "app_id": "f2a56288",
+  "gulpStartupTasks": [
+    "default",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "documentRoot": "www"
+}
